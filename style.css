@@ -28,13 +28,14 @@ nav{
 }
 
 nav .logo{
-  width: 0px;
+  width: 40px;
 }
 
 nav ul li{
   list-style: none;
   display: inline-block;
   margin-left: 40px;
+  text-transform: uppercase;
 }
 
 nav ul li a{
@@ -52,6 +53,7 @@ nav ul li a{
   color: #fff;
   font-weight: 600;
   transition: 0.4s;
+  text-transform: uppercase;
 }
 
 .content h1:hover{
@@ -73,14 +75,19 @@ nav ul li a{
 
 .back-video{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  top: 0;
   z-index: -1;
 }
 
-@media (min-aspect-ratio: 16/9), (max-aspect-ratio: 16/9){
+@media (min-aspect-ratio: 16/9), screen and(max-aspect-ratio: 16/9){
   .back-video{
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 675px){ 
+  .content h1{
+    font-size: 100px;
   }
 }
