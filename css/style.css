@@ -28,7 +28,7 @@ nav{
 }
 
 nav .logo{
-  width: 40px;
+  width: 0px;
 }
 
 nav ul li{
@@ -50,7 +50,7 @@ nav ul li a{
 
 .content h1{
   font-size: 160px;
-  color: #6f139967;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   transition: 0.8s;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ nav ul li a{
 
 h1:hover{
   cursor: pointer;
-  color: #25d6aa6b;
+  color: rgba(14, 158, 163, 0.767);
   /* -webkit-text-stroke: 2px #fff; */
   /* color: transparent; */
 }
@@ -311,6 +311,13 @@ hr {
   border-color: rgba(255,255,255,.6);
 }
 
+footer{
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
   .contact-wrapper {
@@ -379,6 +386,8 @@ hr {
     width: 99%;
   }
 }
+
+
 /* login Page */
 /* 
 :root {
